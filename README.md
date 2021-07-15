@@ -4,3 +4,4 @@
 * 'git status' - Show state of local repo
 * 'git log' - 'List commit history'
 * 'git log --oneline' - Compact history
+* 'git commit -m "msg" - Commit work to local repo with commit message "msg"
