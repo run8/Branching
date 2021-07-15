@@ -7,11 +7,14 @@ git branching.
 * 'git log --oneline' - Compact history
 
 
-###
+### Branching
 * 'git branch' - list local branches
 * 'git branch newBranch' - create local branch 'newBranch'
 * 'git checkout newBranch' - Move to branch 'newBranch'
-<<<<<<< HEAD
-=======
+
 * 'git '
->>>>>>> 5a9dd3558997fd49dfc8737f6e9c72b8581f5450
+
+### Remote Repos
+* 'git remote add alias url' - add 'alias' as name for remote repo 'url' in project configuration
+* 'git push alias aBranch' - push local commits to remote repo 'alias''s branch
+* 'git pull alias aBranch' - pull remote 'aBranch' from 'alias' into current local branch 
